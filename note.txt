@@ -3,7 +3,7 @@ using Tc.Gny.Framework.ORM.Core;
 using Tc.Gny.Framework.ORM.Implementation;
 using Tc.Gny.Framework.ORM.Interface;
 
-namespace Entities
+namespace Journey.Entities
 {
     public class DbContext<T> : DBContextBase
         where T : BaseEntity<T>, new()
