@@ -1,4 +1,4 @@
-using Tc.Gny.Framework.ORM.Base;
+using Tc.Gny.Framework.ORM.Base2;
 using Tc.Gny.Framework.ORM.Core;
 using Tc.Gny.Framework.ORM.Implementation;
 using Tc.Gny.Framework.ORM.Interface;
