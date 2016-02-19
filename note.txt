@@ -108,4 +108,20 @@ namespace Entities.Model
 }
 
 
+public string getOrder() {
+            using (var context = new DbContext<TestTable>(DBOperationType.Read, DbName.Journey))
+            {
+                return context.GetContext<TestTable>().Query("", "", null).FirstOrDefault().FullName.ToString();
+            }
+        }
+
+        public int Update() {
+            using (var context = new DbContext<TestUser>(DBOperationType.Write, DbName.Journey)) {
+                var model = context.GetContext<TestUser>().Query("", "", null).FirstOrDefault();
+                model.UserName = "ceshi";
+                context.GetContext<TestUser>().Update(model);
+                return context.SaveChanges();
+            }
+        }
+
 
