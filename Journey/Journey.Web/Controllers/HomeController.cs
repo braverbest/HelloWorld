@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Journey.Service.Home;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +14,7 @@ namespace Journey.Web.Controllers
 
         public ActionResult Index()
         {
+            new HomeService().getOrder();
             return View();
         }
 

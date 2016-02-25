@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Journey.Entities
 {
-    public class DbName
+    public static class DbName
     {
+        public const string TCTourism = "TCTourism";
+        public const string Journey = "Journey";
     }
 }

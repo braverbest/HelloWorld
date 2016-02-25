@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.Web", "Journey.Web\Journey.Web.csproj", "{D575FA7C-7749-47E9-99A4-5DDA16BA8059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.Service", "Journey.Core\Journey.Service.csproj", "{5B33FAC8-55B8-4113-8174-045C762115C6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.Entities", "Journey.Entities\Journey.Entities.csproj", "{3C64702C-E287-4B60-AB61-384D7D8A3728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.Service", "Journey.Service\Journey.Service.csproj", "{E8BB0DB5-876C-4289-BD33-28CA0E430F76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +17,14 @@ Global
 		{D575FA7C-7749-47E9-99A4-5DDA16BA8059}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D575FA7C-7749-47E9-99A4-5DDA16BA8059}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D575FA7C-7749-47E9-99A4-5DDA16BA8059}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B33FAC8-55B8-4113-8174-045C762115C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B33FAC8-55B8-4113-8174-045C762115C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B33FAC8-55B8-4113-8174-045C762115C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B33FAC8-55B8-4113-8174-045C762115C6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C64702C-E287-4B60-AB61-384D7D8A3728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C64702C-E287-4B60-AB61-384D7D8A3728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C64702C-E287-4B60-AB61-384D7D8A3728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C64702C-E287-4B60-AB61-384D7D8A3728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8BB0DB5-876C-4289-BD33-28CA0E430F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8BB0DB5-876C-4289-BD33-28CA0E430F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8BB0DB5-876C-4289-BD33-28CA0E430F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8BB0DB5-876C-4289-BD33-28CA0E430F76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
