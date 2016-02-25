@@ -42,6 +42,10 @@
     <Reference Include="Core">
       <HintPath>..\ExtDll\Core.dll</HintPath>
     </Reference>
+    <Reference Include="DataAccess, Version=3.2.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtDll\DataAccess.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Orm">
       <HintPath>..\ExtDll\Orm.dll</HintPath>
@@ -167,9 +171,7 @@
     </Content>
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
@@ -204,6 +206,9 @@
       <Project>{3c64702c-e287-4b60-ab61-384d7d8a3728}</Project>
       <Name>Journey.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\TCConfig\TCSmartFramework.DataAccess.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
