@@ -3,10 +3,10 @@ using Tc.Gny.Framework.ORM.Core;
 using Tc.Gny.Framework.ORM.Implementation;
 using Tc.Gny.Framework.ORM.Interface;
 
-namespace Journey.Entities.Entity
+namespace Journey.Entities
 {
     public class DbContext<T> : DBContextBase
-        where T : BaseEntity<T>, new()
+       where T : BaseEntity<T>, new()
     {
         public DbContext(DBOperationType type, string name)
             : base(type, name)
