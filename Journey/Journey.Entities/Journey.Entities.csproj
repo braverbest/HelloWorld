@@ -30,12 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Core">
-      <HintPath>..\ExtDll\Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DataAccess">
-      <HintPath>..\ExtDll\DataAccess.dll</HintPath>
-    </Reference>
     <Reference Include="Orm">
       <HintPath>..\ExtDll\Orm.dll</HintPath>
     </Reference>
